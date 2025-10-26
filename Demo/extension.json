@@ -1,0 +1,46 @@
+{
+  "_comment": "This is the extension manifest file - it defines your extension's metadata and requirements",
+  "_comment_id": "REQUIRED: Unique identifier for your extension (use kebab-case)",
+  "id": "demo",
+
+  "_comment_name": "REQUIRED: Display name shown in the Extensions UI",
+  "name": "Demo Extension",
+
+  "_comment_description": "REQUIRED: Brief description of what your extension does (max 500 characters)",
+  "description": "A demonstration extension showcasing all features of the Ticaga extension system. Use this as a template for building your own extensions.",
+
+  "_comment_version": "REQUIRED: Semantic version number (MAJOR.MINOR.PATCH)",
+  "version": "1.0.0",
+
+  "_comment_author": "REQUIRED: Your name or organization name",
+  "author": "Ticaga Team",
+
+  "_comment_homepage": "OPTIONAL: URL to extension's homepage or documentation",
+  "homepage": "https://github.com/ticaga/demo-extension",
+
+  "_comment_icon": "OPTIONAL: Heroicon name for UI display (see https://heroicons.com)",
+  "icon": "heroicon-o-light-bulb",
+
+  "_comment_requires": "OPTIONAL: Minimum version requirements",
+  "requires": {
+    "_comment": "These versions are checked during installation",
+    "ticaga": "2.2.0",
+    "php": "8.2",
+    "laravel": "12.0"
+  },
+
+  "_comment_capabilities": "OPTIONAL: List of capabilities/features your extension provides",
+  "capabilities": [
+    "demo",
+    "examples",
+    "documentation"
+  ],
+
+  "_comment_config": "OPTIONAL: Default configuration values",
+  "config": {
+    "enabled": true,
+    "demo_setting": "default_value",
+    "api_endpoint": "https://api.example.com",
+    "timeout": 30
+  }
+}
